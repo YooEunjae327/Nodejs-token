@@ -1,0 +1,31 @@
+{
+  "name": "Nodejs-token",
+  "version": "1.0.0",
+  "description": "Understanding tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon --exec babel-node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YooEunjae327/Nodejs-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YooEunjae327/Nodejs-token/issues"
+  },
+  "homepage": "https://github.com/YooEunjae327/Nodejs-token#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
